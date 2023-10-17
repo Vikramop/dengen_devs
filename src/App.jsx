@@ -1,10 +1,15 @@
 import { useState } from 'react';
 import './App.css';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Unlock from './components/Unlock';
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Header />
+      <Hero />
+      <Unlock />
     </>
   );
 }
