@@ -3,6 +3,8 @@ import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Unlock from './components/Unlock';
+import Need from './components/Need';
+import Earning from './components/Earning';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Header />
       <Hero />
       <Unlock />
+      <Need />
+      <Earning />
     </>
   );
 }
