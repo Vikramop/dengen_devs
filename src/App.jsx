@@ -8,6 +8,8 @@ import Earning from './components/Earning';
 import Features from './components/Features';
 import Service from './components/Service';
 import Service1 from './components/Service1';
+import Service2 from './components/Service2';
+import Service3 from './components/Service3';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Features />
       <Service />
       <Service1 />
+      <Service2 />
+      <Service3 />
     </>
   );
 }

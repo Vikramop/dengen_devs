@@ -3,7 +3,7 @@ import img from '../assets/mlarge.png';
 import bg from '../assets/ubg.png';
 import mask2 from '../assets/mask2.png';
 
-const Earning = () => {
+const Service1 = () => {
   return (
     <div className="relative text-white bg-[#0b114a] flex justify-between items-center px-24 font-cabinetBold pt-24 h-[120vh]">
       <div className="z-[555]">
@@ -12,7 +12,7 @@ const Earning = () => {
             Build MInd Blowing
           </span>
           <br />
-          WEBSITES
+          🌐WEBSITES
         </p>
         <div className="flex gap-20 mb-12">
           <div>
@@ -67,15 +67,12 @@ const Earning = () => {
         </div>
       </div>
       <div className="z-[200]">
-        <img src={img} className="w-[480px] z-[500]" />
-        <img
-          src={bg}
-          className="absolute bottom-64 w-[750px] opacity-50 right-2"
-        />
+        <img src={img} className="relative w-[480px] z-[500]" />
+        <img src={bg} className="absolute bottom-64 w-[950px]  -right-8" />
       </div>
       <img src={mask2} className="absolute left-0 bottom-0" />
     </div>
   );
 };
 
-export default Earning;
+export default Service1;
