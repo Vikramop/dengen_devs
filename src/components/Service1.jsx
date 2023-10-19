@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../assets/eimg.png';
+import img from '../assets/mlarge.png';
 import bg from '../assets/ubg.png';
 import mask2 from '../assets/mask2.png';
 
@@ -9,22 +9,26 @@ const Earning = () => {
       <div className="z-[555]">
         <p className="text-[64px] mb-24">
           <span className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
-            HOW TO START{' '}
-          </span>{' '}
+            Build MInd Blowing
+          </span>
           <br />
-          EARNING
+          WEBSITES
         </p>
         <div className="flex gap-20 mb-12">
           <div>
             <p className="text-[64px] leading-none">
-              {' '}
               01 <br />{' '}
               <span className="-mb-4 text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
-                SIGN-UP{' '}
+                WEB3 Sites
               </span>
             </p>
             <p className="text-[24px] font-cabinetMedium">
-              Get your Starting Digital <br /> glasses for free
+              A website is your digital home <br />
+              in the Web3 world. We design <br />
+              websites that are visually <br />
+              stunning, highly functional, <br />
+              and optimized for blockchain <br />
+              integration.
             </p>
           </div>
           <div>
@@ -32,11 +36,15 @@ const Earning = () => {
               {' '}
               02 <br />{' '}
               <span className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
-                WATCH THE FEED{' '}
+                TELEGRAM Bots
               </span>
             </p>
             <p className="text-[24px] font-cabinetMedium">
-              Get the boxes with LEE <br /> coins
+              Simplify your crypto experience <br />
+              with our user-friendly Telegram <br />
+              Bot. Get real-time updates, <br />
+              market insights, and trading <br />
+              signals at your fingertips.
             </p>
           </div>
         </div>
@@ -45,18 +53,25 @@ const Earning = () => {
             {' '}
             03 <br />{' '}
             <span className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
-              BUY RARER DIGIAL GLASSES{' '}
+              Staking dApps
             </span>
           </p>
           <p className="z-[500] text-[24px] font-cabinetMedium">
-            Get LEE coins directly for watching <br />
-            videos in your feed
+            Harness the power of decentralized finance <br />
+            (DeFi) with our Staking DApps. We design and <br />
+            develop secure, user-friendly platforms that <br />
+            allow your customers to stake their assets, <br />
+            earn rewards, and participate in the thriving <br />
+            world of blockchain staking.
           </p>
         </div>
       </div>
-      <div>
-        <img src={img} className="w-[680px] z-[100]" />
-        <img src={bg} className="absolute bottom-64 w-[700px]" />
+      <div className="z-[200]">
+        <img src={img} className="w-[480px] z-[500]" />
+        <img
+          src={bg}
+          className="absolute bottom-64 w-[750px] opacity-50 right-2"
+        />
       </div>
       <img src={mask2} className="absolute left-0 bottom-0" />
     </div>

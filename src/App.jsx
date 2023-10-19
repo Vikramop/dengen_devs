@@ -5,6 +5,9 @@ import Hero from './components/Hero';
 import Unlock from './components/Unlock';
 import Need from './components/Need';
 import Earning from './components/Earning';
+import Features from './components/Features';
+import Service from './components/Service';
+import Service1 from './components/Service1';
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <Unlock />
       <Need />
       <Earning />
+      <Features />
+      <Service />
+      <Service1 />
     </>
   );
 }

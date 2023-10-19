@@ -4,8 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        cabinetBold: ['CABINETBOLD', 'cursive'],
-        cabinetMedium: ['CABINETMEDIUM', 'cursive'], //["CABINETBOLD", "cursive"],
+        cabinetBold: ['CABINETBOLD'],
+        cabinetMedium: ['CABINETMEDIUM'], //["CABINETBOLD", "cursive"],
+        cabinetLight: ['CABINETLIGHT'], //["CABINETBOLD", "cursive"],
       },
     },
   },

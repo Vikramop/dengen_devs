@@ -10,3 +10,7 @@
   font-family: 'CABINETMEDIUM';
   src: url('../public/fonts/CabinetGrotesk-Medium.otf');
 }
+@font-face {
+  font-family: 'CABINETLIGHT';
+  src: url('../public/fonts/CabinetGrotesk-Light.otf');
+}
