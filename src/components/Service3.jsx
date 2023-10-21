@@ -21,9 +21,9 @@ const Service3 = () => {
         <p className="text-[24px] font-cabinetMedium w-[689px]">
           At Degan dev, we specialize in providing top-tier technical consulting
           services to businesses of all sizes and industries. With a team of
-          experienced experts and a proven track record of success, we're your
-          trusted partner for solving complex technical challenges and unlocking
-          new opportunities.
+          experienced experts and a proven track record of success, we&apos;re
+          your trusted partner for solving complex technical challenges and
+          unlocking new opportunities.
         </p>
       </div>
       <img src={mask2} className="absolute left-0 bottom-0" />

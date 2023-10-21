@@ -7,8 +7,8 @@ const Chains = () => {
     <div className=" relative font-cabinetBold bg-[#29114A] text-white flex items-center justify-center gap-[30%] h-[100vh] px-24">
       <div>
         <img src={bg} alt="" className="absolute left-32 top-80" />
-        <h1 className="text-[64px] -top-12 relative leading-none">
-          <span className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
+        <h1 className="text-[64px] -top-24 relative ">
+          <span className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent ">
             OUR CONNECTED <br />
           </span>
           EVM CHAINS
@@ -17,7 +17,7 @@ const Chains = () => {
       </div>
       <div className="flex flex-col gap-[70px]">
         <div>
-          <p className="text-[64px] leading-none">
+          <p className="text-[64px] leading-none pb-12">
             01 <br />{' '}
             <span className="-mb-4 text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
               Binance Smart Chain
@@ -30,7 +30,7 @@ const Chains = () => {
           </p>
         </div>
         <div>
-          <p className="text-[64px] leading-none">
+          <p className="text-[64px] leading-none pb-12">
             02 <br />{' '}
             <span className="-mb-4 text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
               Solana
