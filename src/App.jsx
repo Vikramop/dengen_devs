@@ -10,6 +10,10 @@ import Service from './components/Service';
 import Service1 from './components/Service1';
 import Service2 from './components/Service2';
 import Service3 from './components/Service3';
+import Clients from './components/Clients';
+import Chains from './components/Chains';
+import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,6 +28,10 @@ function App() {
       <Service1 />
       <Service2 />
       <Service3 />
+      <Clients />
+      <Chains />
+      <ContactUs />
+      <Footer />
     </>
   );
 }

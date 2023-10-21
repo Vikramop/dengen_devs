@@ -19,7 +19,7 @@ const services = () => {
       <img
         src={img}
         alt="img"
-        className="w-[450px] h-[950px] z-[500] mx-auto "
+        className="w-[450px] h-[950px] z-[500] mx-auto s"
       />
 
       <img src={bg} alt="img" className="absolute top-24 w-[1000px]" />
