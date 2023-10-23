@@ -22,7 +22,11 @@ const Service1 = () => {
                 WEB3 Sites
               </span>
             </p>
-            <p className="text-[24px] font-cabinetMedium">
+            <p
+              className="text-[24px] font-cabinetMedium
+            xl:max-2xl:text-[20px]
+            "
+            >
               A website is your digital home <br />
               in the Web3 world. We design <br />
               websites that are visually <br />
@@ -39,7 +43,11 @@ const Service1 = () => {
                 TELEGRAM Bots
               </span>
             </p>
-            <p className="text-[24px] font-cabinetMedium">
+            <p
+              className="text-[24px] font-cabinetMedium
+            xl:max-2xl:text-[20px]
+            "
+            >
               Simplify your crypto experience <br />
               with our user-friendly Telegram <br />
               Bot. Get real-time updates, <br />
@@ -56,7 +64,11 @@ const Service1 = () => {
               Staking dApps
             </span>
           </p>
-          <p className="z-[500] text-[24px] font-cabinetMedium">
+          <p
+            className="z-[500] text-[24px] font-cabinetMedium
+          xl:max-2xl:text-[20px]
+          "
+          >
             Harness the power of decentralized finance <br />
             (DeFi) with our Staking DApps. We design and <br />
             develop secure, user-friendly platforms that <br />
@@ -67,7 +79,12 @@ const Service1 = () => {
         </div>
       </div>
       <div className="z-[200]">
-        <img src={img} className="relative w-[480px] z-[500]" />
+        <img
+          src={img}
+          className="relative w-[480px] z-[100]
+        xl:max-2xl:w-[400px]
+        "
+        />
         <img src={bg} className="absolute top-64 w-[750px] right-20  " />
       </div>
       <img src={mask2} className="absolute left-0 bottom-0" />

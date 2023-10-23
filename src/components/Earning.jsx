@@ -55,8 +55,18 @@ const Earning = () => {
         </div>
       </div>
       <div>
-        <img src={img} className="w-[680px] z-[100]" />
-        <img src={bg} className="absolute bottom-64 w-[700px]" />
+        <img
+          src={img}
+          className="w-[680px] z-[100] relative
+        xl:max-2xl:w-[500px]
+        "
+        />
+        <img
+          src={bg}
+          className="absolute bottom-64 w-[700px]
+        xl:max-2xl:w-[500px] xl:max-2xl:bottom-80
+        "
+        />
       </div>
       <img src={mask2} className="absolute left-0 bottom-0" />
     </div>

@@ -11,10 +11,34 @@ const Clients = () => {
         OUR CLIENTS
       </h1>
       <div className="flex justify-between px-12">
-        <img src={c1} alt="img" className="w-[400px] h-[150px]" />
-        <img src={c2} alt="img" className="w-[450px] h-[180px]" />
-        <img src={c3} alt="img" className="w-[150px] h-[150px]" />
-        <img src={c4} alt="img" className="w-[350px] h-[150px]" />
+        <img
+          src={c1}
+          alt="img"
+          className="w-[400px] h-[150px]
+        xl:max-2xl:w-[300px] xl:max-2xl:h-[100px]
+        "
+        />
+        <img
+          src={c2}
+          alt="img"
+          className="w-[450px] h-[180px]
+        xl:max-2xl:w-[300px] xl:max-2xl:h-[120px]
+        "
+        />
+        <img
+          src={c3}
+          alt="img"
+          className="w-[150px] h-[150px]
+        xl:max-2xl:w-[100px] xl:max-2xl:h-[100px]
+        "
+        />
+        <img
+          src={c4}
+          alt="img"
+          className="w-[350px] h-[150px]
+        xl:max-2xl:w-[250px] xl:max-2xl:h-[100px]
+        "
+        />
       </div>
     </div>
   );

@@ -7,7 +7,11 @@ const Service2 = () => {
   return (
     <div className="relative text-white bg-[#0b114a] flex justify-between items-center px-24 font-cabinetBold pt-24 h-[120vh]">
       <div className="z-[555]">
-        <p className="text-[64px] mb-24">
+        <p
+          className="text-[64px] mb-24
+        xl:max-2xl:text-[55px] 
+        "
+        >
           <span className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
             We Design Cutting Edge
           </span>
