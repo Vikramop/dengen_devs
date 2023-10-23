@@ -68,7 +68,7 @@ const Service1 = () => {
       </div>
       <div className="z-[200]">
         <img src={img} className="relative w-[480px] z-[500]" />
-        <img src={bg} className="absolute bottom-64 w-[950px]  -right-8" />
+        <img src={bg} className="absolute top-64 w-[750px] right-20  " />
       </div>
       <img src={mask2} className="absolute left-0 bottom-0" />
     </div>

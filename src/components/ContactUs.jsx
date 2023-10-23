@@ -4,18 +4,34 @@ import mask2 from '../assets/mask2.png';
 
 const ContactUs = () => {
   return (
-    <div className=" relative font-cabinetBold bg-[#0b114a] text-white flex justify-center gap-[20%] items-center py-32 h-[100vh]">
+    <div
+      className=" relative font-cabinetBold bg-[#0b114a] text-white flex justify-center gap-[20%] items-center py-32 h-[100vh]
+    xl:max-2xl:gap-[10%]
+    "
+    >
       <img src={bg} alt="img" className="absolute left-40 w-[700px] z-[10]" />
       <img src={mask2} alt="" className="absolute bottom-0" />
-      <div className="relative z-[100] text-[100px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
+      <div
+        className="relative z-[100] text-[100px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
+      xl:max-2xl:text-[80px]
+      "
+      >
         DEGEN <br /> DEVS
       </div>
-      <div className="flex flex-col gap-[65px]">
-        <h1 className="text-[64px]">
+      <div className="relative z-50 flex flex-col gap-[65px]">
+        <h1
+          className="text-[64px]
+        xl:max-2xl:text-[55px]
+        "
+        >
           {' '}
           MORE ABOUT <br /> DENGEN DEV
         </h1>
-        <p className="relative z-50 uppercase text-[28px] font-cabinetMedium">
+        <p
+          className="relative z-50 uppercase text-[28px] font-cabinetMedium
+        xl:max-2xl:text-[24px]
+        "
+        >
           we are on a mission to reshape the future of the <br />
           digital landscape. We believe in the transformative <br />
           power of Web3 technologies and the profound <br />
