@@ -98,8 +98,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="relative " ref={slide}>
-        <div className="mobile opacity-0 ">
+      {/* <div className="relative bg-red-500" ref={slide}>
+        <div className="mobile opacity-1  ">
           <img
             src={mb1}
             alt="img"
@@ -131,7 +131,7 @@ const Hero = () => {
             className="absolute w-[400px] -top-[300px] left-[1050px] rotate-3"
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
