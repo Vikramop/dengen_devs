@@ -16,6 +16,7 @@ const Clients = () => {
           alt="img"
           className="w-[400px] h-[150px]
         xl:max-2xl:w-[300px] xl:max-2xl:h-[100px]
+        lg:max-xl:w-[250px] lg:max-xl:h-[70px]
         "
         />
         <img
@@ -23,6 +24,7 @@ const Clients = () => {
           alt="img"
           className="w-[450px] h-[180px]
         xl:max-2xl:w-[300px] xl:max-2xl:h-[120px]
+        lg:max-xl:w-[250px] lg:max-xl:h-[90px]
         "
         />
         <img
@@ -30,6 +32,7 @@ const Clients = () => {
           alt="img"
           className="w-[150px] h-[150px]
         xl:max-2xl:w-[100px] xl:max-2xl:h-[100px]
+        lg:max-xl:w-[80px]  lg:max-xl:h-[80px]
         "
         />
         <img
@@ -37,6 +40,7 @@ const Clients = () => {
           alt="img"
           className="w-[350px] h-[150px]
         xl:max-2xl:w-[250px] xl:max-2xl:h-[100px]
+        lg:max-xl:w-[200px] lg:max-xl:h-[80px]
         "
         />
       </div>

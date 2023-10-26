@@ -82,7 +82,11 @@ const Hero = () => {
       "
       >
         <div className="home p-[300px]">
-          <h1 className="font-cabinetBold text-[64px] z-50 relative">
+          <h1
+            className="font-cabinetBold text-[64px] z-50 relative
+          lg:max-xl:text-[50px] 
+          "
+          >
             Welcome to{' '}
             <span className="font-cabinetBold bg-gradient-to-r from-blue-400 via-purple-700 to-pink-700 bg-clip-text text-transparent">
               {' '}
@@ -94,7 +98,12 @@ const Hero = () => {
           <button className="relative mt-4 rounded-md border-indigo-500 border-r-2 border-l-2 border-t-2 border-b-8 z-50 py-6 px-4 bg-[#29114A] font-cabinetMedium text-[24px]">
             VIEW PROJECTS
           </button>
-          <img src={Img} className="absolute top-1/4 border-none" />
+          <img
+            src={Img}
+            className="absolute top-1/4 border-none
+          lg:max-xl:w-[600px]
+          "
+          />
         </div>
       </div>
 

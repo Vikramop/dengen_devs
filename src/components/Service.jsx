@@ -10,7 +10,11 @@ const services = () => {
         {' '}
         our services
       </p>
-      <p className="text-center font-cabinetBold text-[34px] mx-20 mb-[150px]">
+      <p
+        className="relative z-50 text-center font-cabinetBold text-[34px] mx-20 mb-[150px]
+      lg:max-xl:text-[26px]
+      "
+      >
         We&apos;re here to craft exceptional user experiences, breathtaking
         graphics, responsive websites, and immersive mobile app designs that
         align seamlessly with the emerging Web3 ecosystem.
@@ -19,7 +23,9 @@ const services = () => {
       <img
         src={img}
         alt="img"
-        className="w-[450px] h-[950px] z-[500] mx-auto s"
+        className="w-[450px] h-[950px] z-[500] mx-auto 
+        lg:max-xl:w-[300px] lg:max-xl:h-[650px]
+        "
       />
 
       <img src={bg} alt="img" className="absolute top-24 w-[1000px]" />

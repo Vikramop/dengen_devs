@@ -11,11 +11,17 @@ const Service3 = () => {
     "
     >
       <div>
-        <img src={bg} alt="img" className="absolute top-40 z-50" />
+        <img
+          src={bg}
+          alt="img"
+          className="absolute top-40 z-50
+           lg:max-xl:w-[700px]"
+        />
         <img
           src={img}
           className="relative w-[550px] z-[100]
         xl:max-2xl:w-[400px]
+        lg:max-xl:w-[300px]
         "
         />
       </div>
@@ -26,6 +32,7 @@ const Service3 = () => {
         <h1
           className="text-[64px] font-cabinetBold leading-none mb-12
         xl:max-2xl:text-[50px]
+        lg:max-xl:text-[36px]
         "
         >
           Technical <br />
@@ -34,6 +41,7 @@ const Service3 = () => {
         <p
           className="text-[24px] font-cabinetMedium w-[689px]
         xl:max-2xl:text-[20px] xl:max-2xl:w-[500px]
+        lg:max-xl:text-[16px] lg:max-xl:w-[350px]
         "
         >
           At Degan dev, we specialize in providing top-tier technical consulting
