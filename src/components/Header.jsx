@@ -1,13 +1,40 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import MenuIcon from '../assets/menuicon.png';
 import Globe from '../assets/globe.png';
 import Glass from '../assets/glass.png';
 import Chille from '../assets/chille.png';
 import Getapp from '../assets/getapp.png';
+import gsap from 'gsap';
+import { Power3 } from 'gsap';
+
+
 
 const Header = () => {
+
+  const animationItem = useRef(null);
+
+  useEffect(() => {
+    // Refs allow you to access DOM nodes
+    // then we can animate them like so...
+    gsap.to(animationItem.current, 
+    {
+      duration: 1,
+      opacity: 1,
+      delay: 0.5,
+      // y: 20,
+      ease: Power3.easeOut
+    },
+    )
+    // gsap.to(animationItem.current, {
+    //    opacity: 1,
+    // });
+  });
+  
+
+
+
   return (
-    <div className="w-[100%] h-[15vh] bg-[#20174C] flex justify-between text-white items-center px-12">
+    <div ref={animationItem} className="body opacity-0 w-[100%] h-[15vh] bg-[#20174C] flex justify-between text-white items-center px-12">
       <div className="flex gap-[90px]">
         <div className="flex gap-[20px]">
           <img src={MenuIcon} alt="" className="w-12 h-12 cursor-pointer" />

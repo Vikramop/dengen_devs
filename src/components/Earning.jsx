@@ -1,61 +1,74 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import img from '../assets/eimg.png';
 import bg from '../assets/ubg.png';
 import mask2 from '../assets/mask2.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Earning = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
+
   return (
     <div className="relative text-white bg-[#0b114a] flex justify-between items-center px-24 font-cabinetBold pt-24 h-[120vh]">
       <div className="z-[555]">
         <p className="text-[64px] mb-24">
-          <span className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
+          <div data-aos="fade-up" className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
             HOW TO START{' '}
-          </span>{' '}
-          <br />
+          </div>{' '}
+          <div data-aos="fade-up">
           EARNING
+          </div>
         </p>
         <div className="flex gap-20 mb-12">
           <div>
             <p className="text-[64px] leading-none">
-              {' '}
-              01 <br />{' '}
-              <span className="-mb-4 text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
-                SIGN-UP{' '}
+              <div data-aos="fade-up" data-aos-delay="100">
+              01 
+              </div>
+              <span data-aos="fade-up" data-aos-delay="300" className="-mb-4 text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
+                SIGN-UP
               </span>
             </p>
-            <p className="text-[24px] font-cabinetMedium">
+            <p data-aos="fade" data-aos-delay="600" className="text-[24px] font-cabinetMedium">
               Get your Starting Digital <br /> glasses for free
             </p>
           </div>
           <div>
             <p className="text-[64px] leading-none">
-              {' '}
-              02 <br />{' '}
-              <span className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
+              <div data-aos="fade-up" data-aos-delay="1000">
+              02 
+              </div>
+              <span data-aos="fade-up" data-aos-delay="1300" className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
                 WATCH THE FEED{' '}
               </span>
             </p>
-            <p className="text-[24px] font-cabinetMedium">
+            <p data-aos="fade" data-aos-delay="1600" className="text-[24px] font-cabinetMedium">
               Get the boxes with LEE <br /> coins
             </p>
           </div>
         </div>
         <div>
           <p className="text-[64px] leading-none">
-            {' '}
-            03 <br />{' '}
-            <span className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
+            <div data-aos-anchor-placement="top-bottom" data-aos="fade-up" data-aos-delay="2000">
+            03 
+            </div>
+            <span data-aos-anchor-placement="top-bottom" data-aos="fade-up" data-aos-delay="2300" className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
               BUY RARER DIGIAL GLASSES{' '}
             </span>
           </p>
-          <p className="z-[500] text-[24px] font-cabinetMedium">
+          <p data-aos-anchor-placement="top-bottom" data-aos="fade" data-aos-delay="2600" className="z-[500] text-[24px] font-cabinetMedium">
             Get LEE coins directly for watching <br />
             videos in your feed
           </p>
         </div>
       </div>
       <div>
-        <img
+        <img 
+        data-aos="zoom-in" data-aos-delay="300"
           src={img}
           className="w-[680px] z-[100] relative
         xl:max-2xl:w-[500px]
