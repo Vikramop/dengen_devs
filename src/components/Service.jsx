@@ -5,7 +5,11 @@ import mask from '../assets/mask2.png';
 
 const services = () => {
   return (
-    <div className="relative flex flex-col justify-center items-center text-white bg-[#0b114a] h-[120vh]">
+    <div
+      className="relative flex flex-col justify-center items-center text-white bg-[#0b114a] h-[120vh]
+    md:max-lg:h-auto md:max-lg:pb-[30px]
+    "
+    >
       <p className="text-center font-cabinetBold text-[40px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
         {' '}
         our services
@@ -28,7 +32,13 @@ const services = () => {
         "
       />
 
-      <img src={bg} alt="img" className="absolute top-24 w-[1000px]" />
+      <img
+        src={bg}
+        alt="img"
+        className="absolute top-24 w-[1000px]
+      md:max-lg:w-[600px]
+      "
+      />
 
       <img src={mask} alt="img" className="absolute bottom-0 " />
     </div>

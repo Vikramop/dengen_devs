@@ -7,7 +7,11 @@ import mask from '../assets/mask.png';
 
 const Features = () => {
   return (
-    <div className="relative text-white bg-[#0b114a] flex justify-between items-center px-24 h-[180vh] font-cabinetBold uppercase ">
+    <div
+      className="relative text-white bg-[#0b114a] flex justify-between items-center px-24 h-[180vh] font-cabinetBold uppercase 
+    md:max-lg:flex-col md:max-lg:h-auto md:max-lg:pb-[62px] md:max-lg:px-8
+    "
+    >
       <div className="z-[100]">
         <p
           className="text-[64px] mb-[110px]
@@ -70,7 +74,7 @@ const Features = () => {
           <img
             src={box1}
             className="w-[340px] h-[615px]
-          lg:max-xl:w-[250px] lg:max-xl:h-[450px]
+          lg:max-xl:w-[250px] lg:max-xl:h-[450px] 
           "
           />
           <img

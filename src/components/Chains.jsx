@@ -21,7 +21,7 @@ const Chains = () => {
           <span
             className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent 
           lg:max-xl:leading-none 
-
+          md:max-lg:text-[28px]
           "
           >
             OUR CONNECTED <br />
@@ -41,20 +41,23 @@ const Chains = () => {
           <p
             className="text-[64px] leading-none pb-12
           lg:max-xl:text-[52px]
+          md:max-lg:text-[40px]
           "
           >
             01 <br />{' '}
             <span
               className="-mb-4 text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
             lg:max-xl:text-[30px]
+            md:max-lg:text-[24px]
             "
             >
               Binance Smart Chain
             </span>
           </p>
           <p
-            className="text-[28px] font-cabinetMedium
+            className=" relative z-10 text-[28px] font-cabinetMedium
           lg:max-xl:text-[14px]
+          md:max-lg:text-[16px]
           "
           >
             BNB Smart Chain&apos;s EVM compatibility <br />
@@ -64,14 +67,16 @@ const Chains = () => {
         </div>
         <div>
           <p
-            className="text-[64px] leading-none pb-12
+            className="relative z-50 text-[64px] leading-none pb-12
           lg:max-xl:text-[52px]
+          md:max-lg:text-[40px]
           "
           >
             02 <br />{' '}
             <span
-              className="-mb-4 text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
+              className="relative z-50 -mb-4 text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
             lg:max-xl:text-[30px]
+            md:max-lg:text-[35px]
             "
             >
               Solana

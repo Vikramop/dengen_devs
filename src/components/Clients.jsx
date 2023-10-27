@@ -10,7 +10,11 @@ const Clients = () => {
       <h1 className=" pl-12 py-12 font-cabinetBold text-[64px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
         OUR CLIENTS
       </h1>
-      <div className="flex justify-between px-12">
+      <div
+        className="flex justify-between px-12
+      md:max-lg:flex-col md:max-lg:items-center md:max-lg:gap-[20px]
+      "
+      >
         <img
           src={c1}
           alt="img"
