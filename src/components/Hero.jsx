@@ -85,6 +85,7 @@ const Hero = () => {
           <h1
             className="font-cabinetBold text-[64px] z-50 relative
           lg:max-xl:text-[50px] 
+          md:max-lg:text-[30px] md:max-lg:w-[300px]
           "
           >
             Welcome to{' '}
@@ -95,13 +96,18 @@ const Hero = () => {
             - Your <br />
             Gateway to the Web3 World
           </h1>
-          <button className="relative mt-4 rounded-md border-indigo-500 border-r-2 border-l-2 border-t-2 border-b-8 z-50 py-6 px-4 bg-[#29114A] font-cabinetMedium text-[24px]">
+          <button
+            className="relative mt-4 rounded-md border-indigo-500 border-r-2 border-l-2 border-t-2 border-b-8 z-50 py-6 px-4 bg-[#29114A] font-cabinetMedium text-[24px]
+          md:max-lg:text-[20px]
+          "
+          >
             VIEW PROJECTS
           </button>
           <img
             src={Img}
             className="absolute top-1/4 border-none
           lg:max-xl:w-[600px]
+          md:max-lg:w-[350px]
           "
           />
         </div>
