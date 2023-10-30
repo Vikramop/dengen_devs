@@ -2,10 +2,11 @@ import React from 'react';
 import img from '../assets/Llarge.png';
 import bg from '../assets/ubg.png';
 import mask2 from '../assets/mask2.png';
+import '../App.css';
 
 const Service2 = () => {
   return (
-    <div className="relative text-white bg-[#0b114a] flex justify-between items-center px-24 font-cabinetBold pt-24 h-[120vh]">
+    <div className=" relative text-white bg-[#0b114a] flex justify-between items-center px-24 font-cabinetBold p-24 h-auto">
       <div className="z-[555]">
         <p
           className="text-[64px] mb-24
@@ -61,7 +62,7 @@ const Service2 = () => {
       <div className="z-[200]">
         <img
           src={img}
-          className="relative w-[680px] z-50 
+          className="relative w-[620px] z-50 
         lg:max-xl:w-[600px]
         "
         />

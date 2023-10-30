@@ -12,71 +12,70 @@ import mb5 from '../assets/mb5.png';
 import mb6 from '../assets/mb6.png';
 
 const Hero = () => {
-  const anime = useRef(null);
-  const slide = useRef(null);
+  // const anime = useRef(null);
+  // const slide = useRef(null);
 
-  useEffect(() => {
-    let ctx = gsap.context(() => {
-      gsap.to('.home', {
-        autoAlpha: 0,
-        ease: 'power1.out',
-        scale: 1.2,
-        scrollTrigger: {
-          trigger: '.home',
-          start: 'top top',
-          end: '+=500px',
-          //markers: true,
-          pin: true,
-          scrub: true,
-        },
-      });
-    }, anime);
+  // useEffect(() => {
+  //   let ctx = gsap.context(() => {
+  //     gsap.to('.home', {
+  //       autoAlpha: 0,
+  //       ease: 'power1.out',
+  //       scale: 1.2,
+  //       scrollTrigger: {
+  //         trigger: '.home',
+  //         start: 'top top',
+  //         end: '+=500px',
+  //         //markers: true,
+  //         pin: true,
+  //         scrub: true,
+  //       },
+  //     });
+  //   }, anime);
 
-    return () => ctx.revert();
-  });
+  //   return () => ctx.revert();
+  // });
 
-  useEffect(() => {
-    let ctx = gsap.context(() => {
-      gsap.to('.mobile', {
-        duration: 3,
-        opacity: 1,
-        ease: 'none',
-        y: 0,
-        xPercent: 10,
-        scrollTrigger: {
-          trigger: '.mobile',
-          start: 'center 126%',
-          end: 'center 70%',
-          xPercent: 50,
-          y: 50,
-          scrub: 0,
-          // markers: true,
-          // pin: true,
-        },
-      });
-    }, slide);
-    // let ctx = gsap.context(() => {
-    //   gsap.to('.mobile', {
-    //     autoAlpha: 0,
-    //     scrollTrigger: {
-    //       trigger: '.mobile',
-    //       start: '-=900px',
-    //       end: '+=300px',
-    //       ease: 'none',
-    //       scrub: true,
-    //       markers: true,
-    //       pin: true,
-    //     },
-    //   });
-    // }, slide);
+  // useEffect(() => {
+  //   let ctx = gsap.context(() => {
+  //     gsap.to('.mobile', {
+  //       duration: 3,
+  //       opacity: 1,
+  //       ease: 'none',
+  //       y: 0,
+  //       xPercent: 10,
+  //       scrollTrigger: {
+  //         trigger: '.mobile',
+  //         start: 'center 126%',
+  //         end: 'center 70%',
+  //         xPercent: 50,
+  //         y: 50,
+  //         scrub: 0,
+  //         // markers: true,
+  //         // pin: true,
+  //       },
+  //     });
+  //   }, slide);
+  // let ctx = gsap.context(() => {
+  //   gsap.to('.mobile', {
+  //     autoAlpha: 0,
+  //     scrollTrigger: {
+  //       trigger: '.mobile',
+  //       start: '-=900px',
+  //       end: '+=300px',
+  //       ease: 'none',
+  //       scrub: true,
+  //       markers: true,
+  //       pin: true,
+  //     },
+  //   });
+  // }, slide);
 
-    return () => ctx.revert();
-  });
+  //   return () => ctx.revert();
+  // });
 
   return (
     <div className="flex flex-col gap-[300px]">
       <div
-        ref={anime}
         className=" bg-[#29114A] relative text-white text-center flex flex-col items-center justify-center h-[85vh]
       lg:mb-[200px]
       max-sm:h-[60vh]

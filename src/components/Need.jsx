@@ -8,9 +8,14 @@ const Need = () => {
     <div
       className="relative bg-[#0b114a] flex flex-col items-center justify-center h-[100vh]
     md:max-lg:h-[60vh]
+    max-sm:h-[70vh]
     "
     >
-      <h1 className="text-[64px] font-cabinetBold text-white z-[400]">
+      <h1
+        className="text-[64px] font-cabinetBold text-white z-[400]
+      max-sm:text-[32px]
+      "
+      >
         {' '}
         ALL YOU NEED IS <br />
         <span className="bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
