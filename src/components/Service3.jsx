@@ -8,6 +8,7 @@ const Service3 = () => {
     <div
       className="relative bg-[#0b114a] text-white flex items-center justify-between h-[70vh] px-24 
     xl:max-2xl:px-16
+    md:max-lg:h-[60vh]
     "
     >
       <div>
@@ -15,13 +16,16 @@ const Service3 = () => {
           src={bg}
           alt="img"
           className="absolute top-40 z-50
-           lg:max-xl:w-[700px]"
+           lg:max-xl:w-[700px]
+           md:max-lg:w-[600px]
+           "
         />
         <img
           src={img}
           className="relative w-[550px] z-[100]
         xl:max-2xl:w-[400px]
         lg:max-xl:w-[300px]
+        md:max-lg:w-[250px]
         "
         />
       </div>
@@ -33,6 +37,7 @@ const Service3 = () => {
           className="text-[64px] font-cabinetBold leading-none mb-12
         xl:max-2xl:text-[50px]
         lg:max-xl:text-[36px]
+        md:max-lg:text-[32px]
         "
         >
           Technical <br />
@@ -42,6 +47,7 @@ const Service3 = () => {
           className="text-[24px] font-cabinetMedium w-[689px]
         xl:max-2xl:text-[20px] xl:max-2xl:w-[500px]
         lg:max-xl:text-[16px] lg:max-xl:w-[350px]
+        md:max-lg:text-[14px] md:max-lg:w-[250px]
         "
         >
           At Degan dev, we specialize in providing top-tier technical consulting

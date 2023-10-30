@@ -11,6 +11,7 @@ const Header = () => {
       className="w-[100%] h-[15vh] bg-[#20174C] flex justify-between text-white items-center px-12
     lg:max-xl:h-[12vh]
     md:max-lg:h-[10vh]
+    max-sm:px-2  max-sm:h-[12vh]
     "
     >
       <div className="flex gap-[90px]">
@@ -25,28 +26,57 @@ const Header = () => {
             className="w-12 h-12 cursor-pointer
           lg:max-xl:w-8 lg:max-xl:h-8 
           md:max-lg:w-6 md:max-lg:h-6 md:max-lg:mt-[4px]
+          max-sm:hidden
           "
           />
           <h1
             className="text-[32px] font-semibold font-cabinetBold
           lg:max-xl:text-[28px] 
           md:max-lg:text-[20px] md:max-lg:mt-[4px]
+          max-sm:hidden
           "
           >
             Menu
           </h1>
         </div>
-        <h1
-          className="text-[32px] font-semibold font-cabinetBold bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
-        lg:max-xl:text-[26px] lg:max-xl:mt-[4px]
-        md:max-lg:text-[18px]
-        "
-        >
-          DEGEN DEVS
-        </h1>
+        <div className="max-sm:flex max-sm:gap-[80px]">
+          <h1
+            className="text-[32px] font-semibold font-cabinetBold bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
+          lg:max-xl:text-[26px] lg:max-xl:mt-[4px]
+          md:max-lg:text-[18px]
+          max-sm:-ml-16 max-sm:text-[24px]
+          "
+          >
+            DEGEN DEVS
+          </h1>
+          <div className="max-sm:flex max-sm:gap-5">
+            <h1
+              className="text-[32px] font-semibold font-cabinetBold
+            lg:max-xl:text-[28px] 
+            md:max-lg:text-[20px] md:max-lg:mt-[4px]
+            sm:hidden max-sm:text-[22px]
+            "
+            >
+              Menu
+            </h1>
+            <img
+              src={MenuIcon}
+              alt=""
+              className="w-12 h-12 cursor-pointer
+            lg:max-xl:w-8 lg:max-xl:h-8 
+            md:max-lg:w-6 md:max-lg:h-6 md:max-lg:mt-[4px]
+            sm:hidden max-sm:w-8 max-sm:h-8
+            "
+            />
+          </div>
+        </div>
       </div>
 
-      <div className="flex gap-[40px] items-center">
+      <div
+        className="flex gap-[40px] items-center
+      max-sm:hidden
+      "
+      >
         <div className="flex gap-[4px]">
           <img
             src={Globe}

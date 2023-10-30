@@ -79,13 +79,15 @@ const Hero = () => {
         ref={anime}
         className=" bg-[#29114A] relative text-white text-center flex flex-col items-center justify-center h-[85vh]
       lg:mb-[200px]
+      max-sm:h-[60vh]
       "
       >
         <div className="home p-[300px]">
           <h1
             className="font-cabinetBold text-[64px] z-50 relative
           lg:max-xl:text-[50px] 
-          md:max-lg:text-[30px] md:max-lg:w-[300px]
+          md:max-lg:text-[36px] md:max-lg:w-[600px]
+          max-sm:text-[20px] max-sm:w-[300px] 
           "
           >
             Welcome to{' '}
@@ -99,15 +101,17 @@ const Hero = () => {
           <button
             className="relative mt-4 rounded-md border-indigo-500 border-r-2 border-l-2 border-t-2 border-b-8 z-50 py-6 px-4 bg-[#29114A] font-cabinetMedium text-[24px]
           md:max-lg:text-[20px]
+           max-sm:text-[12px] max-sm:py-4
           "
           >
             VIEW PROJECTS
           </button>
           <img
             src={Img}
-            className="absolute top-1/4 border-none
+            className="absolute top-1/4 
           lg:max-xl:w-[600px]
-          md:max-lg:w-[350px]
+          md:max-lg:w-[400px] md:max-lg:left-[400px]
+          max-sm:w-[250px] max-sm:left-80
           "
           />
         </div>

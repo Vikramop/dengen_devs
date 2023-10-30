@@ -5,7 +5,11 @@ import mask from '../assets/mask.png';
 
 const Need = () => {
   return (
-    <div className="relative bg-[#0b114a] flex flex-col items-center justify-center h-[100vh]">
+    <div
+      className="relative bg-[#0b114a] flex flex-col items-center justify-center h-[100vh]
+    md:max-lg:h-[60vh]
+    "
+    >
       <h1 className="text-[64px] font-cabinetBold text-white z-[400]">
         {' '}
         ALL YOU NEED IS <br />

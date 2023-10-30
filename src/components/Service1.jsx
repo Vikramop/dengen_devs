@@ -6,14 +6,14 @@ import mask2 from '../assets/mask2.png';
 const Service1 = () => {
   return (
     <div className="relative text-white bg-[#0b114a] flex justify-between items-center px-24 font-cabinetBold pt-24 h-[120vh]">
-      <div className="z-[555]">
+      <div className="relative z-[555]">
         <p
           className="text-[64px] mb-24
         lg:max-xl:text-[52px]
         "
         >
           <span className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
-            Build MInd Blowing
+            Build Mind Blowing
           </span>
           <br />
           🌐WEBSITES
@@ -34,6 +34,7 @@ const Service1 = () => {
               className="text-[24px] font-cabinetMedium
             xl:max-2xl:text-[20px]
             lg:max-xl:text-[16px]
+            md:max-lg:text-[14px]
             "
             >
               A website is your digital home <br />
@@ -60,6 +61,7 @@ const Service1 = () => {
               className="text-[24px] font-cabinetMedium
             xl:max-2xl:text-[20px]
             lg:max-xl:text-[16px]
+            md:max-lg:text-[14px]
             "
             >
               Simplify your crypto experience <br />
@@ -86,6 +88,7 @@ const Service1 = () => {
             className="z-[500] text-[24px] font-cabinetMedium
           xl:max-2xl:text-[20px]
           lg:max-xl:text-[16px]
+          md:max-lg:text-[14px]
           "
           >
             Harness the power of decentralized finance <br />
@@ -103,6 +106,7 @@ const Service1 = () => {
           className="relative w-[480px] z-[100]
         xl:max-2xl:w-[400px]
         lg:max-xl:w-[250px]
+        md:max-lg:hidden
         "
         />
         <img src={bg} className="absolute top-64 w-[750px] right-20  " />

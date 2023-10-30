@@ -11,11 +11,13 @@ const Service2 = () => {
           className="text-[64px] mb-24
         xl:max-2xl:text-[55px] 
         lg:max-xl:text-[36px]
+        md:max-lg:text-[32px]
         "
         >
           <span
             className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
           lg:max-xl:text-[24px]
+          md:max-lg:text-[24px]
           "
           >
             We Design Cutting Edge
@@ -28,6 +30,7 @@ const Service2 = () => {
             <p
               className="text-[24px] font-cabinetMedium
             lg:max-xl:text-[20px]
+            md:max-lg:text-[20px]
             "
             >
               We understand that exceptional user experiences are the heart of
@@ -40,6 +43,7 @@ const Service2 = () => {
             <p
               className="text-[24px] font-cabinetMedium
             lg:max-xl:text-[20px]
+            md:max-lg:text-[20px]
             "
             >
               Our creative wizards transform ideas into captivating visuals.

@@ -83,8 +83,10 @@ const Chains = () => {
             </span>
           </p>
           <p
-            className="text-[28px] font-cabinetMedium
+            className="relative text-[28px] font-cabinetMedium
           lg:max-xl:text-[14px]
+          
+          md:max-lg:text-[16px]
           "
           >
             The Neon EVM functions as a smart <br />
