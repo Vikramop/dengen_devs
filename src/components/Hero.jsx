@@ -110,7 +110,7 @@ const Hero = () => {
             className="absolute top-1/4 
           lg:max-xl:w-[600px]
           md:max-lg:w-[400px] md:max-lg:left-[400px]
-          max-sm:w-[250px] max-sm:left-80
+          max-sm:w-[250px] max-sm:left-20
           "
           />
         </div>

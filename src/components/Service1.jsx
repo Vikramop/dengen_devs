@@ -32,7 +32,7 @@ const Service1 = () => {
         <div
           className="flex gap-20 mb-12
         
-        max-sm:gap-4
+        max-sm:gap-0
         "
         >
           <div

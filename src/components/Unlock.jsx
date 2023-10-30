@@ -3,7 +3,7 @@ import bg from '../assets/ubg.png';
 
 const Unlock = () => {
   return (
-    <div className="bg-[#29114A] text-white flex items-center justify-between h-[60vh] px-24">
+    <div className="bg-[#29114A] text-white flex items-center justify-between h-auto py-20 px-24 ">
       <div>
         <img
           src={bg}

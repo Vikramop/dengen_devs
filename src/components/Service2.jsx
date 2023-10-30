@@ -6,19 +6,27 @@ import '../App.css';
 
 const Service2 = () => {
   return (
-    <div className=" relative text-white bg-[#0b114a] flex justify-between items-center px-24 font-cabinetBold p-24 h-auto">
+    <div
+      className=" relative text-white bg-[#0b114a] flex justify-between items-center px-24 font-cabinetBold p-24 h-auto
+    max-sm:px-4
+    "
+    >
       <div className="z-[555]">
         <p
           className="text-[64px] mb-24
         xl:max-2xl:text-[55px] 
         lg:max-xl:text-[36px]
         md:max-lg:text-[32px]
+        max-sm:text-[30px]
+        max-sm:w-[380px]
         "
         >
           <span
             className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
           lg:max-xl:text-[24px]
           md:max-lg:text-[24px]
+          max-sm:text-[24px]
+          
           "
           >
             We Design Cutting Edge
@@ -32,6 +40,8 @@ const Service2 = () => {
               className="text-[24px] font-cabinetMedium
             lg:max-xl:text-[20px]
             md:max-lg:text-[20px]
+            max-sm:text-[18px]
+            max-sm:w-[300px]
             "
             >
               We understand that exceptional user experiences are the heart of
@@ -45,6 +55,8 @@ const Service2 = () => {
               className="text-[24px] font-cabinetMedium
             lg:max-xl:text-[20px]
             md:max-lg:text-[20px]
+            max-sm:text-[18px]
+            max-sm:w-[300px]
             "
             >
               Our creative wizards transform ideas into captivating visuals.
@@ -54,7 +66,10 @@ const Service2 = () => {
             </p>
           </div>
 
-          <button className="mt-4 rounded-md w-[300px] border-indigo-500 border-r-2 border-l-2 border-t-2 border-b-8 z-50 py-6 px-4 bg-[#29114A] font-cabinetMedium text-[24px]">
+          <button
+            className="mt-4 rounded-md w-[300px] border-indigo-500 border-r-2 border-l-2 border-t-2 border-b-8 z-50 py-6 px-4 bg-[#29114A] font-cabinetMedium text-[24px]
+          max-sm:text-[20px] max-sm:py-4 max-sm:w-[200px]"
+          >
             VIEW PROJECTS
           </button>
         </div>
@@ -64,6 +79,7 @@ const Service2 = () => {
           src={img}
           className="relative w-[620px] z-50 
         lg:max-xl:w-[600px]
+        max-sm:hidden
         "
         />
         <img
@@ -73,7 +89,12 @@ const Service2 = () => {
           "
         />
       </div>
-      <img src={mask2} className="absolute left-0 bottom-0" />
+      <img
+        src={mask2}
+        className="absolute left-0 bottom-0
+      
+      "
+      />
     </div>
   );
 };

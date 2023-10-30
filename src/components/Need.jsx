@@ -7,7 +7,7 @@ const Need = () => {
   return (
     <div
       className="relative bg-[#0b114a] flex flex-col items-center justify-center h-[100vh]
-    md:max-lg:h-[60vh]
+    md:max-lg:h-[70vh]
     max-sm:h-[70vh]
     "
     >
