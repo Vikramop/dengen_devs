@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import MenuIcon from '../assets/menuicon.png';
 import Globe from '../assets/globe.png';
 import Glass from '../assets/glass.png';
 import Chille from '../assets/chille.png';
 import Getapp from '../assets/getapp.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Header = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div
+    data-aos="fade-down" 
       className="w-[100%] h-[15vh] bg-[#20174C] flex justify-between text-white items-center px-12
     lg:max-xl:h-[12vh]
     md:max-lg:h-[10vh]

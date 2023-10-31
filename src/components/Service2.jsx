@@ -3,8 +3,16 @@ import img from '../assets/Llarge.png';
 import bg from '../assets/ubg.png';
 import mask2 from '../assets/mask2.png';
 import '../App.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Service2 = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div className=" relative text-white bg-[#0b114a] flex justify-between items-center px-24 font-cabinetBold p-24 h-auto">
       <div className="z-[555]">
@@ -15,19 +23,19 @@ const Service2 = () => {
         md:max-lg:text-[32px]
         "
         >
-          <span
-            className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
+          <div data-aos="fade-up" data-aos-delay="300" data-aos-anchor-placement="top-bottom" className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
           lg:max-xl:text-[24px]
-          md:max-lg:text-[24px]
-          "
+          md:max-lg:text-[24px]"
           >
             We Design Cutting Edge
-          </span>
-          <br />
+          </div>
+          <div data-aos="fade" data-aos-delay="800" data-aos-anchor-placement="top-bottom">
           🖌️UI/UX DESIGN/🎨GRAPHICS
+          </div>
+          
         </p>
         <div className=" w-[35vw] flex flex-col gap-20 mb-12">
-          <div>
+          <div data-aos="fade" data-aos-delay="900" data-aos-anchor-placement="top-bottom">
             <p
               className="text-[24px] font-cabinetMedium
             lg:max-xl:text-[20px]
@@ -40,7 +48,7 @@ const Service2 = () => {
               with
             </p>
           </div>
-          <div>
+          <div data-aos="fade" data-aos-delay="500" data-aos-anchor-placement="top-bottom">
             <p
               className="text-[24px] font-cabinetMedium
             lg:max-xl:text-[20px]
@@ -60,13 +68,13 @@ const Service2 = () => {
         </div>
       </div>
       <div className="z-[200]">
-        <img
+        <img data-aos="fade-up" data-aos-delay="800" data-aos-anchor-placement="top-bottom"
           src={img}
           className="relative w-[620px] z-50 
         lg:max-xl:w-[600px]
         "
         />
-        <img
+        <img data-aos="zoom-in" data-aos-delay="1000" data-aos-anchor-placement="top-bottom"
           src={bg}
           className="absolute bottom-64 w-[950px]  right-12 top-30
           lg:max-xl:w-[800px]

@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 gsap.registerPlugin(ScrollTrigger);
 import Img from '../assets/ubg.png';
 import mb1 from '../assets/mb1.png';
@@ -12,8 +13,12 @@ import mb5 from '../assets/mb5.png';
 import mb6 from '../assets/mb6.png';
 
 const Hero = () => {
-  // const anime = useRef(null);
-  // const slide = useRef(null);
+  const anime = useRef(null);
+  const slide = useRef(null);
+  
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
   // useEffect(() => {
   //   let ctx = gsap.context(() => {
@@ -83,6 +88,7 @@ const Hero = () => {
       >
         <div className="home p-[300px]">
           <h1
+          data-aos="fade-up" data-aos-delay="200"
             className="font-cabinetBold text-[64px] z-50 relative
           lg:max-xl:text-[50px] 
           md:max-lg:text-[36px] md:max-lg:w-[600px]
@@ -98,6 +104,7 @@ const Hero = () => {
             Gateway to the Web3 World
           </h1>
           <button
+          data-aos="fade-up" data-aos-duration="700" data-aos-delay="200"
             className="relative mt-4 rounded-md border-indigo-500 border-r-2 border-l-2 border-t-2 border-b-8 z-50 py-6 px-4 bg-[#29114A] font-cabinetMedium text-[24px]
           md:max-lg:text-[20px]
            max-sm:text-[12px] max-sm:py-4
@@ -106,6 +113,7 @@ const Hero = () => {
             VIEW PROJECTS
           </button>
           <img
+          data-aos="fade-down" data-aos-duration="2000" data-aos-delay="200"
             src={Img}
             className="absolute top-1/4 
           lg:max-xl:w-[600px]

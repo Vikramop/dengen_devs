@@ -4,8 +4,16 @@ import box2 from '../assets/box2.png';
 import box3 from '../assets/box3.png';
 import box4 from '../assets/box4.png';
 import mask from '../assets/mask.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Features = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div
       className="relative text-white bg-[#0b114a] flex justify-between items-center px-24 h-auto font-cabinetBold uppercase 
@@ -20,15 +28,18 @@ const Features = () => {
         max-sm:text-[40px]
         "
         >
-          <span className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent ">
+          <div data-aos="fade-up" className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent ">
             {' '}
             EARN MORE
-          </span>{' '}
-          <br />
+          </div>{' '}
+          <div data-aos="fade-up" data-aos-duration="600" >
           WITH RARER <br />
           GLASSES
+          </div>
+         
         </p>
-        <div
+        <div data-aos="zoom" data-aos-delay="400"
+        data-aos-anchor-placement="top-bottom"
           className="text-[20px] gap-[50px] flex flex-col mb-[110px] 
         lg:max-xl:text-[16px] lg:max-xl:w-[250px]
         "
@@ -43,17 +54,19 @@ const Features = () => {
           </p>
         </div>
         <div>
-          <h3 className="text-[24px] mb-[14px]">ATTENTION</h3>
+          <h3 data-aos-anchor-placement="top-bottom" data-aos="fade" data-aos-duration="600" data-aos-delay="300" className="text-[24px] mb-[14px]">ATTENTION</h3>
           <p
             className="text-[16px] font-cabinetLight mb-[40px]
           lg:max-xl:text-[14px] lg:max-xl:w-[200px]
-          "
+          " data-aos-anchor-placement="top-bottom"
+          data-aos="fade" data-aos-duration="600" data-aos-delay="350"
           >
             Resource for receiving coins and boxes. <br />1 Attention equals 5
             minutes of watching the feed <br />
           </p>
-          <h3 className="text-[24px] mb-[14px]">ATTENTION CAP</h3>
-          <p
+          <h3 data-aos-anchor-placement="top-bottom" data-aos="fade" data-aos-duration="600" data-aos-delay="400" className="text-[24px] mb-[14px]">ATTENTION CAP</h3>
+          <p data-aos-anchor-placement="top-bottom"
+          data-aos="fade" data-aos-duration="600" data-aos-delay="450"
             className="text-[16px] font-cabinetLight mb-[40px]
           lg:max-xl:text-[14px] lg:max-xl:w-[230px]
           "
@@ -61,8 +74,8 @@ const Features = () => {
             Attention you can spend per day: <br />
             initial – 1, maximum – 20{' '}
           </p>
-          <h3 className="text-[24px] mb-[14px]">COIN CAP</h3>
-          <p
+          <h3 data-aos-anchor-placement="top-bottom" data-aos="fade" data-aos-duration="600" data-aos-delay="500" className="text-[24px] mb-[14px]">COIN CAP</h3>
+          <p data-aos-anchor-placement="top-bottom" data-aos="fade" data-aos-duration="600" data-aos-delay="550"
             className="text-[16px] font-cabinetLight mb-[40px]
           lg:max-xl:text-[14px] lg:max-xl:w-[270px]"
           >
@@ -77,13 +90,20 @@ const Features = () => {
             max-sm:flex max-sm:flex-col
             "
         >
-          <img
+          <img 
+          data-aos-duration="700"
+          data-aos="fade-left" 
+          data-aos-delay="50"
             src={box1}
             className="w-[340px] h-[615px]
           lg:max-xl:w-[250px] lg:max-xl:h-[450px] 
           "
           />
           <img
+          
+          data-aos-duration="700"
+          data-aos="fade-left"
+          data-aos-delay="200"
             src={box2}
             className="w-[340px] h-[615px]
           lg:max-xl:w-[250px] lg:max-xl:h-[450px]"
@@ -95,12 +115,20 @@ const Features = () => {
         "
         >
           <img
+          data-aos-anchor-placement="top-bottom"
+          data-aos-duration="700"
+          data-aos="fade-left" 
+          data-aos-delay="50"
             src={box3}
             className="w-[340px] h-[615px]
           lg:max-xl:w-[250px] lg:max-xl:h-[450px]"
           />
           <img
             src={box4}
+            data-aos-anchor-placement="top-bottom"
+          data-aos-duration="700"
+          data-aos="fade-left"
+          data-aos-delay="200"
             className="w-[340px] h-[615px]
           lg:max-xl:w-[250px] lg:max-xl:h-[450px]"
           />

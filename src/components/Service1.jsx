@@ -2,8 +2,16 @@ import React from 'react';
 import img from '../assets/mlarge.png';
 import bg from '../assets/ubg.png';
 import mask2 from '../assets/mask2.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Service1 = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <div
       className="relative text-white bg-[#0b114a] flex justify-between items-center px-24 font-cabinetBold pt-24 h-auto pb-8
@@ -13,31 +21,28 @@ const Service1 = () => {
     "
     >
       <div className="relative z-[555]">
-        <p
+        <p data-aos="fade-up" data-aos-anchor-placement="top-bottom"
           className="text-[64px] mb-24
         lg:max-xl:text-[52px]
         max-sm:text-[30px]
         "
         >
-          <span
+          <span data-aos="fade-up" data-aos-anchor-placement="top-bottom" 
             className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
           max-sm:text-[28px]
           "
           >
             Build Mind Blowing
           </span>
-          <br />
-          🌐WEBSITES
+          <div data-aos="fade" data-aos-anchor-placement="top-bottom" data-aos-delay="300">🌐 WEBSITES</div>
+          
         </p>
         <div
-          className="flex gap-20 mb-12
-        
-        max-sm:gap-4
-        "
-        >
+          className="flex gap-20 mb-12 max-sm:gap-4">
           <div
             className="
             max-sm:w-[200px] "
+            data-aos="fade-up" data-aos-delay="400" data-aos-anchor-placement="top-bottom"
           >
             <p
               className="text-[64px] leading-none
@@ -70,7 +75,7 @@ const Service1 = () => {
               integration.
             </p>
           </div>
-          <div>
+          <div data-aos="fade-up" data-aos-delay="400" data-aos-anchor-placement="top-bottom">
             <p
               className="text-[64px] leading-none
             lg:max-xl:text-[52px]
@@ -102,7 +107,7 @@ const Service1 = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-up" data-aos-delay="400" data-aos-anchor-placement="top-bottom">
           <p
             className="text-[64px] leading-none 
           lg:max-xl:text-[52px]
@@ -136,7 +141,7 @@ const Service1 = () => {
         </div>
       </div>
       <div className="z-[200]">
-        <img
+        <img data-aos="fade-left" data-aos-delay="400" data-aos-anchor-placement="top-bottom"
           src={img}
           className="relative w-[450px] z-[100]
         xl:max-2xl:w-[400px]
@@ -147,7 +152,8 @@ const Service1 = () => {
         "
         />
         <img
-          src={bg}
+          src={bg} 
+          data-aos="fade-right" data-aos-delay="400" data-aos-duration="900" data-aos-anchor-placement="top-bottom"
           className="absolute top-64 w-[750px] right-20  
           max-sm:w-[300px]
             "
