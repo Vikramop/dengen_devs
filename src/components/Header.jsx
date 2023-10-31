@@ -39,7 +39,7 @@ const Header = () => {
             Menu
           </h1>
         </div>
-        <div className="max-sm:flex max-sm:gap-[80px]">
+        <div className="max-sm:flex max-sm:gap-[100px]">
           <h1
             className="text-[32px] font-semibold font-cabinetBold bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
           lg:max-xl:text-[26px] lg:max-xl:mt-[4px]

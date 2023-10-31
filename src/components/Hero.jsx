@@ -81,7 +81,7 @@ const Hero = () => {
       max-sm:h-[60vh]
       "
       >
-        <div className="home p-[300px]">
+        <div className="home p-[300px] max-sm:p-0">
           <h1
             className="font-cabinetBold text-[64px] z-50 relative
           lg:max-xl:text-[50px] 

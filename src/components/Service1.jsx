@@ -37,7 +37,9 @@ const Service1 = () => {
         >
           <div
             className="
-            max-sm:w-[200px] "
+            max-sm:w-[200px] 
+            
+            "
           >
             <p
               className="text-[64px] leading-none
@@ -123,7 +125,8 @@ const Service1 = () => {
           xl:max-2xl:text-[20px]
           lg:max-xl:text-[16px]
           md:max-lg:text-[14px]
-          max-sm:text-[12px]
+          max-sm:text-[12px] max-sm:w-[300px]
+          
           "
           >
             Harness the power of decentralized finance <br />
