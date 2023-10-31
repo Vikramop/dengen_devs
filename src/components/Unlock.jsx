@@ -10,13 +10,8 @@ const Unlock = () => {
   }, [])
 
   return (
-<<<<<<< HEAD
-    <div className="bg-[#29114A] text-white flex items-center justify-between h-[60vh] px-24">
-      <div data-aos="fade-right" data-aos-delay="200">
-=======
     <div className="bg-[#29114A] text-white flex items-center justify-between h-auto py-20 px-24 ">
-      <div>
->>>>>>> d3db5f10774942b4d59dce6a10f312bb8a192b71
+      <div data-aos="fade-right" data-aos-delay="200">
         <img
           src={bg}
           alt=""
