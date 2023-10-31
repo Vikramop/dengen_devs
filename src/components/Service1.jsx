@@ -38,11 +38,16 @@ const Service1 = () => {
           
         </p>
         <div
-          className="flex gap-20 mb-12 max-sm:gap-4">
+          className="flex gap-20 mb-12
+        
+        max-sm:gap-0
+        "
+        >
           <div
             className="
-            max-sm:w-[200px] "
-            data-aos="fade-up" data-aos-delay="400" data-aos-anchor-placement="top-bottom"
+            max-sm:w-[200px] 
+            
+            "
           >
             <p
               className="text-[64px] leading-none
@@ -128,7 +133,8 @@ const Service1 = () => {
           xl:max-2xl:text-[20px]
           lg:max-xl:text-[16px]
           md:max-lg:text-[14px]
-          max-sm:text-[12px]
+          max-sm:text-[12px] max-sm:w-[300px]
+          
           "
           >
             Harness the power of decentralized finance <br />

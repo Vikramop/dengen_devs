@@ -6,13 +6,19 @@ import c4 from '../assets/client4.png';
 
 const Clients = () => {
   return (
-    <div className="text-white bg-[#0b114a] pb-12">
-      <h1 className=" pl-12 py-12 font-cabinetBold text-[64px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
+    <div className="text-white bg-[#0b114a] pb-12 max-sm:h-auto">
+      <h1
+        className=" pl-12 py-12 font-cabinetBold text-[64px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
+      max-sm:text-[40px]
+      "
+      >
         OUR CLIENTS
       </h1>
       <div
         className="flex justify-between px-12
       md:max-lg:flex-col md:max-lg:items-center md:max-lg:gap-[20px]
+      max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center
+      max-sm:gap-[20px]
       "
       >
         <img
@@ -21,6 +27,7 @@ const Clients = () => {
           className="w-[400px] h-[150px]
         xl:max-2xl:w-[300px] xl:max-2xl:h-[100px]
         lg:max-xl:w-[250px] lg:max-xl:h-[70px]
+        max-sm:w-[250px] max-sm:h-[90px]
         "
         />
         <img
@@ -29,6 +36,7 @@ const Clients = () => {
           className="w-[450px] h-[180px]
         xl:max-2xl:w-[300px] xl:max-2xl:h-[120px]
         lg:max-xl:w-[250px] lg:max-xl:h-[90px]
+        max-sm:w-[250px] max-sm:h-[90px]
         "
         />
         <img
@@ -37,6 +45,7 @@ const Clients = () => {
           className="w-[150px] h-[150px]
         xl:max-2xl:w-[100px] xl:max-2xl:h-[100px]
         lg:max-xl:w-[80px]  lg:max-xl:h-[80px]
+        max-sm:w-[100px] max-sm:h-[110px]
         "
         />
         <img
@@ -45,6 +54,7 @@ const Clients = () => {
           className="w-[350px] h-[150px]
         xl:max-2xl:w-[250px] xl:max-2xl:h-[100px]
         lg:max-xl:w-[200px] lg:max-xl:h-[80px]
+        max-sm:w-[250px] max-sm:h-[120px]
         "
         />
       </div>

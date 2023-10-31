@@ -4,24 +4,34 @@ import img from '../assets/evmChains.png';
 
 const Chains = () => {
   return (
-    <div className=" relative font-cabinetBold bg-[#29114A] text-white flex items-center justify-center gap-[30%] h-[100vh] px-24">
+    <div
+      className=" relative font-cabinetBold bg-[#29114A] text-white flex items-center justify-center gap-[30%] h-[100vh] px-24
+    max-sm:flex max-sm:flex-col max-sm:h-auto
+    max-sm:px-4 max-sm:py-12
+    "
+    >
       <div>
         <img
           src={bg}
           alt=""
           className="absolute left-32 top-80
         lg:max-xl:w-[580px]
+        max-sm:w-[300px] max-sm:left-8
         "
         />
         <h1
           className="text-[64px] -top-24 relative 
         lg:max-xl:text-[52px]
+        max-sm:text-[36px]
+        max-sm:top-0
+        max-sm:pb-4
         "
         >
           <span
             className="text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent 
           lg:max-xl:leading-none 
           md:max-lg:text-[28px]
+          max-sm:text-[30px]
           "
           >
             OUR CONNECTED <br />
@@ -33,6 +43,7 @@ const Chains = () => {
           alt=""
           className="w-[400px] relative z-50
         lg:max-xl:w-[300px]
+        max-sm:w-[300px] max-sm:pb-12
         "
         />
       </div>
@@ -42,13 +53,15 @@ const Chains = () => {
             className="text-[64px] leading-none pb-12
           lg:max-xl:text-[52px]
           md:max-lg:text-[40px]
+          max-sm:text-[36px]
           "
           >
             01 <br />{' '}
             <span
-              className="-mb-4 text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
+              className="relative -mb-4 text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
             lg:max-xl:text-[30px]
             md:max-lg:text-[24px]
+            max-sm:text-[26px]
             "
             >
               Binance Smart Chain
@@ -58,6 +71,7 @@ const Chains = () => {
             className=" relative z-10 text-[28px] font-cabinetMedium
           lg:max-xl:text-[14px]
           md:max-lg:text-[16px]
+          max-sm:text-[20px]
           "
           >
             BNB Smart Chain&apos;s EVM compatibility <br />
@@ -70,6 +84,7 @@ const Chains = () => {
             className="relative z-50 text-[64px] leading-none pb-12
           lg:max-xl:text-[52px]
           md:max-lg:text-[40px]
+          max-sm:text-[36px]
           "
           >
             02 <br />{' '}
@@ -77,6 +92,7 @@ const Chains = () => {
               className="relative z-50 -mb-4 text-[34px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
             lg:max-xl:text-[30px]
             md:max-lg:text-[35px]
+            max-sm:text-[26px]
             "
             >
               Solana
@@ -87,6 +103,7 @@ const Chains = () => {
           lg:max-xl:text-[14px]
           
           md:max-lg:text-[16px]
+          max-sm:text-[20px]
           "
           >
             The Neon EVM functions as a smart <br />

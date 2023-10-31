@@ -4,12 +4,13 @@ import twitter from '../assets/twitter.png';
 
 const Footer = () => {
   return (
-    <div className=" relative font-cabinetBold bg-[#0b114a] text-white">
+    <div className=" relative font-cabinetBold bg-[#0b114a] text-white max-sm:h-auto max-sm:py-12">
       <div
         className="flex justify-center gap-[50%] px-32
       xl:max-2xl:gap-[30%]
       lg:max-xl:gap-[25%] lg:max-xl:pt-[30px]
       md:max-lg:px-12 md:max-lg:gap-[15%]
+      max-sm:flex max-sm:flex-col max-sm:px-8
       
       "
       >
@@ -17,6 +18,7 @@ const Footer = () => {
           className="relative z-[100] text-[100px] bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent
         lg:max-xl:text-[70px]
         md:max-lg:text-[52px] md:max-lg:pt-[20px]
+        max-sm:text-[40px]
         "
         >
           <h1>
@@ -26,6 +28,7 @@ const Footer = () => {
         <div
           className="flex gap-12 pt-8
         lg:max-xl:gap-8
+        max-sm:flex max-sm:flex-col
         "
         >
           <img
@@ -50,6 +53,8 @@ const Footer = () => {
         className="font-cabinetMedium text-[34px] text-[#ffffff5e] mt-40 pl-32
       lg:max-xl:text-[30px]
       md:max-lg:pl-12
+      max-sm:pl-4 max-sm:text-[24px]
+      max-sm:mt-12
       "
       >
         {' '}
@@ -60,6 +65,10 @@ const Footer = () => {
       lg:max-xl:text-[24px] lg:max-xl:gap-[64px]
       md:max-lg:text-[13px]
       md:max-lg:pl-12
+      
+      max-sm:flex max-sm:flex-col 
+      max-sm:pl-8 max-sm:gap-[20px]
+
       "
       >
         <p>Support</p>

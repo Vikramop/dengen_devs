@@ -86,7 +86,7 @@ const Hero = () => {
       max-sm:h-[60vh]
       "
       >
-        <div className="home p-[300px]">
+        <div className="home p-[300px] max-sm:p-0">
           <h1
           data-aos="fade-up" data-aos-delay="200"
             className="font-cabinetBold text-[64px] z-50 relative
@@ -118,7 +118,7 @@ const Hero = () => {
             className="absolute top-1/4 
           lg:max-xl:w-[600px]
           md:max-lg:w-[400px] md:max-lg:left-[400px]
-          max-sm:w-[250px] max-sm:left-80
+          max-sm:w-[250px] max-sm:left-20
           "
           />
         </div>

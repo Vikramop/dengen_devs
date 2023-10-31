@@ -9,6 +9,8 @@ const ContactUs = () => {
     xl:max-2xl:gap-[10%]
     lg:max-xl:h-[90vh] lg:max-xl:gap-[9%]
     md:max-lg:h-auto md:max-lg:gap-[10%]
+    max-sm:flex max-sm:flex-col max-sm:h-auto
+    max-sm:px-4
     "
     >
       <img
@@ -16,6 +18,7 @@ const ContactUs = () => {
         alt="img"
         className="absolute left-40 w-[700px] z-[10]
       md:max-lg:w-[400px]
+      max-sm:left-0 max-sm:w-[350px]
       "
       />
       <img src={mask2} alt="" className="absolute bottom-0" />
@@ -24,6 +27,7 @@ const ContactUs = () => {
       xl:max-2xl:text-[80px]
       lg:max-xl:text-[68px]
       md:max-lg:text-[60px]
+      max-sm:hidden
       "
       >
         DEGEN <br /> DEVS
@@ -34,6 +38,7 @@ const ContactUs = () => {
         xl:max-2xl:text-[55px]
         lg:max-xl:text-[40px]
         md:max-lg:text-[32px]
+        max-sm:text-[30px]
         "
         >
           {' '}
@@ -44,6 +49,7 @@ const ContactUs = () => {
         xl:max-2xl:text-[24px]
         lg:max-xl:text-[20px]
         md:max-lg:text-[16px] md:max-lg:w-[250px]
+        max-sm:text-[14px] max-sm:w-[220px]
         "
         >
           we are on a mission to reshape the future of the <br />
@@ -55,6 +61,8 @@ const ContactUs = () => {
         <button
           className="mt-4 rounded-md w-[300px] border-indigo-500 border-r-2 border-l-2 border-t-2 border-b-8 z-50 py-6 px-4 bg-[#29114A] font-cabinetMedium text-[24px]
         md:max-lg:text-[18px] md:max-lg:w-[180px]
+        max-sm:w-[200px] max-sm:text-[20px]
+
         "
         >
           CONTACT US
