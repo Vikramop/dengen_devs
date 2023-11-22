@@ -17,8 +17,8 @@ const Clients = () => {
       <div
         className="flex justify-between px-12
       md:max-lg:flex-col md:max-lg:items-center md:max-lg:gap-[20px]
-      max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center
-      max-sm:gap-[20px]
+      max-sm:flex max-md:flex-col max-md:justify-center max-md:items-center max-md:gap-[50px]
+      max-sm:gap-[20px] 
       "
       >
         <img

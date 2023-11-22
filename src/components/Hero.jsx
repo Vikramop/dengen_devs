@@ -15,10 +15,10 @@ import mb6 from '../assets/mb6.png';
 const Hero = () => {
   const anime = useRef(null);
   const slide = useRef(null);
-  
+
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
 
   // useEffect(() => {
   //   let ctx = gsap.context(() => {
@@ -88,7 +88,8 @@ const Hero = () => {
       >
         <div className="home p-[300px] max-sm:p-0">
           <h1
-          data-aos="fade-up" data-aos-delay="200"
+            data-aos="fade-up"
+            data-aos-delay="200"
             className="font-cabinetBold lg:text-[64px] z-50 relative
           md:text-[36px]
           text-[20px]
@@ -105,7 +106,9 @@ const Hero = () => {
             Your Gateway to the Web3 World
           </h1>
           <button
-          data-aos="fade-up" data-aos-duration="700" data-aos-delay="200"
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-delay="200"
             className="relative mt-4 rounded-md border-indigo-500 border-r-2 border-l-2 border-t-2 border-b-8 z-50 py-6 px-4 bg-[#29114A] font-cabinetMedium text-[24px]
           md:max-lg:text-[20px]
            max-sm:text-[12px] max-sm:py-4
@@ -114,11 +117,14 @@ const Hero = () => {
             VIEW PROJECTS
           </button>
           <img
-          data-aos="fade-down" data-aos-duration="2000" data-aos-delay="200"
+            data-aos="fade-down"
+            data-aos-duration="2000"
+            data-aos-delay="200"
             src={Img}
             className="absolute top-1/4 
           lg:max-xl:w-[600px]
-          md:max-lg:w-[400px] md:max-lg:left-[400px]
+          md:max-lg:w-[400px] 
+          max-md:w-[400px]
           max-sm:w-[250px] max-sm:left-20
           "
           />

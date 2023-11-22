@@ -10,6 +10,7 @@ const Footer = () => {
       xl:max-2xl:gap-[30%]
       lg:max-xl:gap-[25%] lg:max-xl:pt-[30px]
       md:max-lg:px-12 md:max-lg:gap-[15%]
+      max-md:flex max-md:flex-col max-md:pl-12
       max-sm:flex max-sm:flex-col max-sm:px-8
       
       "
@@ -53,6 +54,7 @@ const Footer = () => {
         className="font-cabinetMedium text-[34px] text-[#ffffff5e] mt-40 pl-32
       lg:max-xl:text-[30px]
       md:max-lg:pl-12
+      max-md:pl-12 max-md:text-[40px]
       max-sm:pl-4 max-sm:text-[24px]
       max-sm:mt-12
       "
@@ -65,7 +67,7 @@ const Footer = () => {
       lg:max-xl:text-[24px] lg:max-xl:gap-[64px]
       md:max-lg:text-[13px]
       md:max-lg:pl-12
-      
+      max-md:flex max-md:pl-12 max-md:flex-col max-md:text-[34px]
       max-sm:flex max-sm:flex-col 
       max-sm:pl-8 max-sm:gap-[20px]
 

@@ -9,6 +9,7 @@ const ContactUs = () => {
     xl:max-2xl:gap-[10%]
     lg:max-xl:h-[90vh] lg:max-xl:gap-[9%]
     md:max-lg:h-auto md:max-lg:gap-[10%]
+    max-md:h-auto
     max-sm:flex max-sm:flex-col max-sm:h-auto
     max-sm:px-4
     "
@@ -18,6 +19,7 @@ const ContactUs = () => {
         alt="img"
         className="absolute left-40 w-[700px] z-[10]
       md:max-lg:w-[400px]
+      max-md:w-[400px] max-md:left-12
       max-sm:left-0 max-sm:w-[350px]
       "
       />
@@ -27,6 +29,7 @@ const ContactUs = () => {
       xl:max-2xl:text-[80px]
       lg:max-xl:text-[68px]
       md:max-lg:text-[60px]
+      max-md:hidden
       max-sm:hidden
       "
       >
@@ -38,6 +41,7 @@ const ContactUs = () => {
         xl:max-2xl:text-[55px]
         lg:max-xl:text-[40px]
         md:max-lg:text-[32px]
+        max-md:text-[55px] max-md:pl-12
         max-sm:text-[30px]
         "
         >
@@ -49,6 +53,7 @@ const ContactUs = () => {
         xl:max-2xl:text-[24px]
         lg:max-xl:text-[20px]
         md:max-lg:text-[16px] md:max-lg:w-[250px]
+        max-md:text-[20px] max-md:px-12
         max-sm:text-[14px] max-sm:w-[220px]
         "
         >
@@ -61,6 +66,7 @@ const ContactUs = () => {
         <button
           className="mt-4 rounded-md w-[300px] border-indigo-500 border-r-2 border-l-2 border-t-2 border-b-8 z-50 py-6 px-4 bg-[#29114A] font-cabinetMedium text-[24px]
         md:max-lg:text-[18px] md:max-lg:w-[180px]
+        max-md:ml-12
         max-sm:w-[200px] max-sm:text-[20px]
 
         "

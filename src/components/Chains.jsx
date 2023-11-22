@@ -6,6 +6,7 @@ const Chains = () => {
   return (
     <div
       className=" relative font-cabinetBold bg-[#29114A] text-white flex items-center justify-center gap-[30%] h-[100vh] px-24
+      max-md:flex max-md:flex-col max-md:h-auto max-md:pl-12
     max-sm:flex max-sm:flex-col max-sm:h-auto
     max-sm:px-4 max-sm:py-12
     "
@@ -16,6 +17,7 @@ const Chains = () => {
           alt=""
           className="absolute left-32 top-80
         lg:max-xl:w-[580px]
+        max-md:w-[500px] max-md:left-8
         max-sm:w-[300px] max-sm:left-8
         "
         />
@@ -23,6 +25,7 @@ const Chains = () => {
           className="text-[64px] -top-24 relative 
         lg:max-xl:text-[52px]
         max-sm:text-[36px]
+        max-md:top-0
         max-sm:top-0
         max-sm:pb-4
         "
@@ -43,6 +46,7 @@ const Chains = () => {
           alt=""
           className="w-[400px] relative z-50
         lg:max-xl:w-[300px]
+        max-md:pb-16
         max-sm:w-[300px] max-sm:pb-12
         "
         />
@@ -103,6 +107,7 @@ const Chains = () => {
           lg:max-xl:text-[14px]
           
           md:max-lg:text-[16px]
+          max-md:pb-12
           max-sm:text-[20px]
           "
           >

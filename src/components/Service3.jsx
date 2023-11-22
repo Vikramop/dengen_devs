@@ -19,6 +19,7 @@ const Service3 = () => {
           className="absolute top-40 z-50
            lg:max-xl:w-[700px]
            md:max-lg:w-[600px]
+           max-md:
            max-sm:w-[300px]
            "
         />
