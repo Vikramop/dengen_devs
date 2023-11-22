@@ -14,17 +14,15 @@ const Need = () => {
 
   return (
     <div
-      className="relative bg-[#0b114a] flex flex-col items-center justify-center h-[100vh]
-    md:max-lg:h-[70vh]
-    max-sm:h-[70vh]
+      className="relative bg-[#0b114a] flex flex-col items-center text-center py-11 h-[fit-content]
     "
     >
       <h1
-        className="text-[64px] font-cabinetBold text-white z-[400]
+        className="text-[64px] font-cabinetBold text-white z-[400] px-4 md:px-20
       max-sm:text-[32px]
       "
       >
-        <div className='text-center'data-aos="fade-up">ALL YOU NEED IS</div>
+        <div className='' data-aos="fade-up">ALL YOU NEED IS</div>
         <div data-aos-delay="100" data-aos="fade-up" className="bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
           DIGITAL GLASSES
         </div>

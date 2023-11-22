@@ -16,12 +16,13 @@ const Features = () => {
 
   return (
     <div
-      className="relative text-white bg-[#0b114a] flex justify-between items-center px-24 h-auto font-cabinetBold uppercase 
+      className="relative text-white bg-[#0b114a] flex justify-between items-center h-auto font-cabinetBold uppercase 
     md:max-lg:flex-col md:max-lg:h-auto md:max-lg:pb-[62px] md:max-lg:px-8
     max-sm:h-auto max-sm:px-6 max-sm:flex max-sm:flex-col max-sm:pb-20
+    py-20 px-1 md:px-20 
     "
     >
-      <div className="z-[100]">
+      <div className="z-[100] outline">
         <p
           className="text-[64px] mb-[110px]
         lg:max-xl:text-[50px]

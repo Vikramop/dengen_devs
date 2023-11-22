@@ -17,7 +17,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
+    <div style={{ overflowX: "hidden"}}>
       <Header />
       <Hero />
       <Unlock />
@@ -32,7 +32,7 @@ function App() {
       <Chains />
       <ContactUs />
       <Footer />
-    </>
+    </div>
   );
 }
 

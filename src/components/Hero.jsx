@@ -89,19 +89,20 @@ const Hero = () => {
         <div className="home p-[300px] max-sm:p-0">
           <h1
           data-aos="fade-up" data-aos-delay="200"
-            className="font-cabinetBold text-[64px] z-50 relative
-          lg:max-xl:text-[50px] 
-          md:max-lg:text-[36px] md:max-lg:w-[600px]
-          max-sm:text-[20px] max-sm:w-[300px] 
+            className="font-cabinetBold lg:text-[64px] z-50 relative
+          md:text-[36px]
+          text-[20px]
+          lg:w-[50rem]
+          md:w-[30rem]
+          w-[20rem]
           "
           >
             Welcome to{' '}
             <span className="font-cabinetBold bg-gradient-to-r from-blue-400 via-purple-700 to-pink-700 bg-clip-text text-transparent">
-              {' '}
-              DENGEN DEVS{' '}
-            </span>{' '}
-            - Your <br />
-            Gateway to the Web3 World
+              DENGEN DEVS
+            </span>
+            <br />
+            Your Gateway to the Web3 World
           </h1>
           <button
           data-aos="fade-up" data-aos-duration="700" data-aos-delay="200"

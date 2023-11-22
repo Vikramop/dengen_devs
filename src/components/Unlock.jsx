@@ -10,8 +10,8 @@ const Unlock = () => {
   }, [])
 
   return (
-    <div className="bg-[#29114A] text-white flex items-center justify-between h-auto py-20 px-24 ">
-      <div data-aos="fade-right" data-aos-delay="200">
+    <div className="bg-[#29114A] text-white flex items-center justify-between h-auto py-20 px-1 md:px-20 ">
+      <div data-aos="fade-right" data-aos-delay="200" className=''>
         <img
           src={bg}
           alt=""
@@ -21,7 +21,7 @@ const Unlock = () => {
         "
         />
       </div>
-      <div data-aos="fade-left" data-aos-delay="400">
+      <div data-aos="fade-left" data-aos-delay="400" className=''>
         <p className="text-[24px] font-cabinetBold bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent">
           Dengan Dev
         </p>
