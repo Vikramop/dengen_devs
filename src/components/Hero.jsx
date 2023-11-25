@@ -40,43 +40,43 @@ const Hero = () => {
     return () => ctx.revert();
   });
 
-  useEffect(() => {
-    let ctx = gsap.context(() => {
-      gsap.to('.mobile', {
-        duration: 3,
-        opacity: 1,
-        ease: 'none',
-        y: 0,
-        xPercent: 10,
-        scrollTrigger: {
-          trigger: '.mobile',
-          start: 'center 126%',
-          end: 'center 70%',
-          xPercent: 50,
-          y: 50,
-          scrub: 0,
-          // markers: true,
-          // pin: true,
-        },
-      });
-    }, slide);
-    // let ctx = gsap.context(() => {
-    //   gsap.to('.mobile', {
-    //     autoAlpha: 0,
-    //     scrollTrigger: {
-    //       trigger: '.mobile',
-    //       start: '-=900px',
-    //       end: '+=300px',
-    //       ease: 'none',
-    //       scrub: true,
-    //       markers: true,
-    //       pin: true,
-    //     },
-    //   });
-    // }, slide);
+  // useEffect(() => {
+  //   let ctx = gsap.context(() => {
+  //     gsap.to('.mobile', {
+  //       duration: 3,
+  //       opacity: 1,
+  //       ease: 'none',
+  //       y: 0,
+  //       xPercent: 10,
+  //       scrollTrigger: {
+  //         trigger: '.mobile',
+  //         start: 'center 126%',
+  //         end: 'center 70%',
+  //         xPercent: 50,
+  //         y: 50,
+  //         scrub: 0,
+  //         // markers: true,
+  //         // pin: true,
+  //       },
+  //     });
+  //   }, slide);
+  //   // let ctx = gsap.context(() => {
+  //   //   gsap.to('.mobile', {
+  //   //     autoAlpha: 0,
+  //   //     scrollTrigger: {
+  //   //       trigger: '.mobile',
+  //   //       start: '-=900px',
+  //   //       end: '+=300px',
+  //   //       ease: 'none',
+  //   //       scrub: true,
+  //   //       markers: true,
+  //   //       pin: true,
+  //   //     },
+  //   //   });
+  //   // }, slide);
 
-    return () => ctx.revert();
-  });
+  //   return () => ctx.revert();
+  // });
 
   return (
     <div className="flex flex-col gap-[300px]">
